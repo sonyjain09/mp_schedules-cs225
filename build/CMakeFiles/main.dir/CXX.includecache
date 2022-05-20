@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/schedule.h
+string
+-
+vector
+-
+map
+-
+unordered_map
+-
+fstream
+-
+sstream
+-
+set
+-
+
+/workspaces/cs225/mp_schedule/entry/main.cpp
+iostream
+-
+schedule.h
+/workspaces/cs225/mp_schedule/entry/schedule.h
+
